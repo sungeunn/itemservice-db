@@ -24,7 +24,7 @@
     </select>
 
     <select id="findAll" resultType="Item">
-        select id, item_naem, price, quantity
+        select id, item_name, price, quantity
         from item
         <where>
             <if test="itemName != null and itemName != ''">
